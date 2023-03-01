@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_certus.mk
+    $(LOCAL_DIR)/lineage_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_certus-user \
-    blaze_certus-userdebug \
-    blaze_certus-eng
+    lineage_certus-user \
+    lineage_certus-userdebug \
+    lineage_certus-eng
