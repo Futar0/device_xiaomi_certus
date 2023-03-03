@@ -56,6 +56,11 @@ PRODUCT_PRODUCT_PROPERTIES  += \
    ro.surface_flinger.vsync_sf_event_phase_offset_ns=830000 \
    ro.surface_flinger.present_time_offset_from_vsync_ns=0
    
-   #blurs
+ # blurs
+ PRODUCT_PRODUCT_PROPERTIES  += \
    persist.sys.sf.disable_blurs=1
-
+   
+ # Fling velocities
+ PRODUCT_PRODUCT_PROPERTIES  += \
+   ro.min.fling_velocity=160
+   ro.max.fling_velocity=20000
